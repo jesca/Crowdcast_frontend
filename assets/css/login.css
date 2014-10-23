@@ -194,7 +194,7 @@
 .content-style-form label {
 	display: block;
 	padding: 10px 0 0;
-	color: #d5bba4;
+	color: #365485;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -204,17 +204,17 @@
 .content-style-form input[type="password"] {
 	padding: 10px;
 	width: 100%;
-	border: 2px solid #e75854;
+	border: 2px solid #ecb32e;
 	background: transparent;
-	color: #b09a86;
+	color: #313131;
 	font-weight: 300;
 	font-size: 2.2em;
 }
 
 .content-style-form input[type="text"]:focus,
 .content-style-form input[type="password"]:focus {
-	border-color: #48637b;
-	color: #e75854;
+	border-color: #5e91cd; 
+	color: #313131;
 }
 
 .content-style-form input:focus {
@@ -460,7 +460,7 @@
 
  .morph-button.morph-button-modal-3 {
 	display: inline-block;
-	margin: 10px 15px;
+	margin:0px 15px;
 }
 
 
@@ -468,8 +468,8 @@
 
 .morph-button-modal-3 > button,
 .morph-button-modal-3 .morph-content {
-	background-color: #fef0e3;
-	color: #e75854;
+	background-color: #fbfbfb;
+	color: #4f76ab;
 }
 
 
