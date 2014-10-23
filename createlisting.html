@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8"> 
@@ -126,6 +126,9 @@
 					<div class="form-group">
 						<input type="text" class="form-control" id="city" placeholder="Enter city">
 					</div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="state" placeholder="Enter state">
+                    </div>
 					<div class="form-group">
 						<input type="text" class="form-control" id="zip" placeholder="Enter zipcode">
 					</div>
@@ -171,11 +174,12 @@
 	   listingResolution = $('#resolution').val();
 	   listingStreet = $('#street').val();
 	   listingCity = $('#city').val();
+       listingState = $('#state').val();
 	   listingZip = $('#zip').val();
 	   listingDescription = $('#description').val();
 	   /*$.ajax({
 			type: 'POST',
-			url: "/users/add",
+			url: "api/create_listing",
 			data: JSON.stringify({ user: username, password: password }),
 			contentType: "application/json",
 			dataType: "json",
